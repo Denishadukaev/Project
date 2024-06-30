@@ -1,0 +1,172 @@
+*{
+    box-sizing: border-box ;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar{
+    background-color:#546d85; 
+}
+
+.logo{
+    font-size: 25px;
+    color: #11181a;
+    margin-right: 500px;
+    
+}
+
+.main{
+    margin-left:45px ;
+}
+
+.nav a{
+    color: #230249;
+}
+
+.nav li{
+    list-style-type: none;
+}
+
+.nav{
+    display: flex;
+    gap: 15px;
+}
+
+.maintext h1{
+    font-size: 50px;
+    color:#28659e;
+}
+
+.maintext p{
+    font-size: 20px;
+    color: #3b568b;
+}
+ 
+.maintext{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    margin-top: 60px;
+    gap: 50px;
+}
+.hp{
+    width: 520px;
+}
+
+.image img{
+    width: 510px;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.boxes h1{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.box{
+    border: 3px solid rgb(53, 0, 9);
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.box img{
+    width: 196px;
+    height: 196px;
+}
+
+.box-container{
+    height: 250px;
+    width: 200px;
+    
+}
+
+.main-cont{
+    display: flex;
+    justify-content:center;
+    gap: 25px;
+    margin-top: 20px;
+    
+}
+
+.box-container p{
+    text-align: center;
+}
+
+.boxes{
+    height: 400px;
+}
+
+second{
+    
+    height: 350px;
+    background-color: #546b9b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.p-two p{
+    font-size: 30px;
+    font-style: italic;
+    color:#7a158f;
+}
+
+footer{
+    background-color: #375683;
+    height: 60px;
+}
+
+.prefooter{
+    display: flex;
+    justify-content: space-between;
+    width: 900px; 
+    background-color: rgb(122, 122, 187);
+    align-items: center;
+    height: 110px;
+    border-radius: 7px;
+}   
+
+.sec-cont{
+    display: flex;
+    align-items: center; 
+
+}
+
+.last-sect{
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot{
+    color: #484c55;
+    margin-left: 70px;
+    
+}
+
+.button-cont button{
+    background-color: rgb(171, 200, 219);
+    border: 2px solid #43464d;
+    color: #3f444e;
+}
+
+.button-container{
+    margin-right: 70px;
+}
